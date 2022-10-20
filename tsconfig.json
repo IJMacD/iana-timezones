@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "declaration": true,
+        "esModuleInterop": true,
+    }
+}
