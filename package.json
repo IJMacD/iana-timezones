@@ -3,6 +3,12 @@
   "version": "1.1.2022e",
   "description": "Package to download IANA time zone database and convert to JSON array of time zone names",
   "main": "dist/index.js",
+  "author": "IJMacD",
+  "homepage": "https://github.com/IJMacD/iana-timezones#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IJMacD/iana-timezones.git"
+  },
   "scripts": {
     "build": "tsc"
   },
