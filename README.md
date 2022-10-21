@@ -26,5 +26,3 @@ To use the package:
 1. `git clone https://github.com/IJMacD/iana-timezones.git`
 2. `cd iana-timezones`
 3. `yarn install`
-3. `node scripts/importList.mjs`
-4. `yarn build`
