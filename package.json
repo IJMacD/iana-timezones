@@ -10,7 +10,8 @@
     "url": "git+https://github.com/IJMacD/iana-timezones.git"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "node scripts/importList.mjs; npm run build"
   },
   "devDependencies": {
     "jsdom": "^20.0.1",
