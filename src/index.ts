@@ -8,11 +8,12 @@ declare namespace Intl {
 }
 
 function getTimeZones (): string[] {
-    if (typeof Intl["supportedValuesOf"] === "function") {
+    try {
         return Intl.supportedValuesOf("timeZone");
     }
-
-    return timeZones;
+    catch (e) {
+        return timeZoneList;
+    }
 }
 
 export { getTimeZones, timeZoneList };
